@@ -1,1 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Special Offer: 47 AI Profit Methods | Dream of Freedom</title>
+  <meta name="description" content="Limited offer: Get the full 47-Method AI Profit Guide for just $17." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root { --bg:#0b0f14; --card:#121826; --text:#e6f0ff; --muted:#9bb3d3; --accent:#ffd166; --danger:#ff6b6b }
+    *{box-sizing:border-box} body{margin:0;background:radial-gradient(1200px 600px at 20% -10%, #1a2335 0%,#0b0f14 50%);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial}
+    .wrap{max-width:860px;margin:0 auto;padding:28px}
+    .note{background:#0f1626;border:1px solid #26344f;border-radius:12px;padding:10px 14px;color:#b9c9e6;font-size:14px}
+    h1{font-size:36px;margin:14px 0 6px}
+    .price{font-size:18px;color:var(--accent);font-weight:800;letter-spacing:.4px}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:18px}
+    @media(max-width:900px){.grid{grid-template-columns:1fr}}
+    .card{background:var(--card);border:1px solid #1f2a44;border-radius:16px;padding:20px}
+    ul{margin:12px 0 0 0;padding:0;list-style:none}
+    li{margin:10px 0;display:flex;gap:10px}
+    .dot{width:10px;height:10px;border-radius:999px;background:#7bd389;margin-top:7px}
+    a.btn{display:inline-block;text-align:center;text-decoration:none;background:linear-gradient(180deg,#ffd166,#f7b733);color:#1a1a1a;padding:14px 18px;border-radius:12px;font-weight:800;margin-top:14px;border:0}
+    .timer{font-variant-numeric:tabular-nums;font-weight:700;color:var(--danger)}
+    .small{font-size:12px;color:#9bb3d3;margin-top:8px}
+  </style>
+  <script>
+    let end = Date.now() + 10*60*1000;
+    function tick(){
+      let t = Math.max(0, end - Date.now());
+      let m = Math.floor(t/60000), s = Math.floor((t%60000)/1000);
+      document.getElementById('count').textContent =
+        (m<10?'0':'')+m+':'+(s<10?'0':'')+s;
+      if(t>0) requestAnimationFrame(tick);
+    }
+    document.addEventListener('DOMContentLoaded', tick);
+  </script>
+</head>
+<body>
+  <div class="wrap">
+    <div class="note">Your free guide is on its way to your inbox. While you wait…</div>
+    <h1>Unlock <em>All</em> 47 AI Profit Methods</h1>
+    <div class="price">Today only: <strong>$17</strong></div>
+    <div class="small">This page won’t be shown again. Expires in <span id="count" class="timer">10:00</span></div>
 
+    <div class="grid">
+      <div class="card">
+        <h3 style="margin:0 0 8px">What you get</h3>
+        <ul>
+          <li><span class="dot"></span><span>47 step-by-step methods with tools, prompts, and monetization paths</span></li>
+          <li><span class="dot"></span><span>Beginner-friendly, low-cost setups you can run after work</span></li>
+          <li><span class="dot"></span><span>Fast-start checklists + pricing cheatsheets</span></li>
+          <li><span class="dot"></span><span>Client outreach templates to land first sales</span></li>
+        </ul>
+        <a class="btn" href="https://jared585.gumroad.com/l/ithyji" target="_blank" rel="noopener">Get the 47-Method Guide for $17 →</a>
+        <div class="small">Instant access. Secure checkout via Gumroad.</div>
+      </div>
+
+      <div class="card">
+        <h3 style="margin:0 0 8px">Why now?</h3>
+        <ul>
+          <li><span class="dot"></span><span>You just grabbed 5 methods—this upgrades you to the full 47 so you’re never stuck for ideas.</span></li>
+          <li><span class="dot"></span><span>Speed advantage: plug-and-play prompts and tools shorten the “figuring it out” phase.</span></li>
+          <li><span class="dot"></span><span>Priced for action: one idea paying even $20/day covers this 20x over.</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="small" style="margin-top:16px">Questions? Reply to your delivery email—I'll help you get moving fast.</div>
+  </div>
+</body>
+</html>
